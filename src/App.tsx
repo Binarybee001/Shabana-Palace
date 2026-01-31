@@ -29,6 +29,8 @@ const App = () => {
     console.log('Key exists:', !!import.meta.env.VITE_SUPABASE_ANON_KEY);
   }, []);
 
+
+  
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
