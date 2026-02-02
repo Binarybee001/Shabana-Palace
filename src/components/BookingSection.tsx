@@ -38,7 +38,7 @@ const BookingSection = () => {
 
 Please confirm availability. Thank you!`;
 
-    const whatsappUrl = `https://wa.me/254780116262?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/254742864164?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
     
     toast.success("Redirecting to WhatsApp to complete your booking!");
